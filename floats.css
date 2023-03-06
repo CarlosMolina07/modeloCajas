@@ -11,21 +11,20 @@
 
 .wrapper{
     background: green;
+    display: flex;
+    /*flex-direction: row-reverse;*/
 }
 
 .menu{
     background: silver;
     width: 30%;
-    float: left;
 }
 
 .content{
     background: aqua;
     width: 70%;
-    float: left;
 }
 
 .footer{
     background: pink;
-    clear: both;
 }
